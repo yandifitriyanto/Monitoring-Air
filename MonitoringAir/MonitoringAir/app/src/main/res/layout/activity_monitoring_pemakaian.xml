@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Monitoring Pemakaian Air"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:text="Filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFilter"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:text="Jumlah Pemakaian Air"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewJumlahPemakaian"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewPemakaian"
+        android:transcriptMode="alwaysScroll"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000dp" android:layout_height="800dp"
+    android:padding="2dp"
+    android:background="#fbf5f5f5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Monitoring Pemakaian Air"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Dari"
+        android:clickable="true"
+        android:editable="false"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="37dp"
+        android:id="@+id/etTanggalDari"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Sampai"
+        android:clickable="true"
+        android:editable="false"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_below="@+id/etTanggalDari"
+        android:layout_alignLeft="@+id/etTanggalDari"
+        android:layout_alignStart="@+id/etTanggalDari"
+        android:id="@+id/etTanggalSampai" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/etTanggalSampai"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/buttonLihat"
+        android:text="Lihat"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"/>
+</RelativeLayout>

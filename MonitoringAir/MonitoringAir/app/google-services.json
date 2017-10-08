@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "566619682530",
+    "firebase_url": "https://monitoring-air-9606d.firebaseio.com",
+    "project_id": "monitoring-air-9606d",
+    "storage_bucket": "monitoring-air-9606d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566619682530:android:a61fdb9dc45ddf9a",
+        "android_client_info": {
+          "package_name": "com.yandi.arduino.monitoringair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566619682530-76bc1qpg2mrdh6vqb8q7nkd87ct3dkas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDny1Qe73zXwFqgGpXKoX03SrUjgc6tOR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
